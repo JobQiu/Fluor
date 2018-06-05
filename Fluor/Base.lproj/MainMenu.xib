@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13770" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13770"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
         <capability name="stacking Non-gravity area distributions on NSStackView" minToolsVersion="7.0" minSystemVersion="10.11"/>
@@ -37,19 +37,15 @@
                             </connections>
                         </textField>
                         <customView appearanceType="aqua" translatesAutoresizingMaskIntoConstraints="NO" id="ghF-Nf-2dw">
-                            <rect key="frame" x="127" y="4" width="72" height="22"/>
+                            <rect key="frame" x="128" y="4" width="71" height="22"/>
                             <subviews>
                                 <segmentedControl focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="RSg-2F-b2E">
-                                    <rect key="frame" x="0.0" y="-1" width="72" height="23"/>
+                                    <rect key="frame" x="0.0" y="-1" width="71" height="23"/>
                                     <segmentedCell key="cell" borderStyle="border" focusRingType="none" alignment="left" style="texturedSquare" trackingMode="selectOne" id="qZf-Wa-JJt">
                                         <font key="font" metaFont="system"/>
                                         <segments>
-                                            <segment image="AppSwitch" imageScaling="proportionallyUpOrDown" selected="YES">
-                                                <nil key="label"/>
-                                            </segment>
-                                            <segment image="FnKey" imageScaling="proportionallyUpOrDown" tag="1">
-                                                <nil key="label"/>
-                                            </segment>
+                                            <segment image="AppSwitch" imageScaling="proportionallyUpOrDown" selected="YES"/>
+                                            <segment image="FnKey" imageScaling="proportionallyUpOrDown" tag="1"/>
                                         </segments>
                                     </segmentedCell>
                                     <connections>
@@ -226,10 +222,10 @@
                             </connections>
                         </textField>
                         <customView appearanceType="aqua" translatesAutoresizingMaskIntoConstraints="NO" id="95p-vS-Mgv">
-                            <rect key="frame" x="127" y="4" width="72" height="22"/>
+                            <rect key="frame" x="128" y="4" width="71" height="22"/>
                             <subviews>
                                 <segmentedControl verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="kdK-wj-mRZ">
-                                    <rect key="frame" x="0.0" y="-1" width="72" height="23"/>
+                                    <rect key="frame" x="0.0" y="-1" width="71" height="23"/>
                                     <segmentedCell key="cell" borderStyle="border" alignment="left" style="capsule" trackingMode="selectOne" id="Vfh-zJ-Axi">
                                         <font key="font" metaFont="system"/>
                                         <segments>
@@ -311,10 +307,10 @@
                             </connections>
                         </textField>
                         <customView appearanceType="aqua" translatesAutoresizingMaskIntoConstraints="NO" id="Kga-gN-osw">
-                            <rect key="frame" x="0.0" y="0.0" width="105" height="22"/>
+                            <rect key="frame" x="0.0" y="0.0" width="104" height="22"/>
                             <subviews>
                                 <segmentedControl canDrawConcurrently="YES" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gls-pL-7qN">
-                                    <rect key="frame" x="0.0" y="-1" width="105" height="23"/>
+                                    <rect key="frame" x="0.0" y="-1" width="104" height="23"/>
                                     <segmentedCell key="cell" borderStyle="border" alignment="left" style="capsule" trackingMode="selectOne" id="1I5-bW-HGh">
                                         <font key="font" metaFont="system"/>
                                         <segments>
